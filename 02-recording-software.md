@@ -2,14 +2,12 @@
 
 ## 2.1 Only Screen Recording
 
-If you are only recording the screen \(without combining webcam video source in Picture-in-Picture or split screen format\), there are some inbuilt solutions. Although on Windows to record the entire desktop you'll need custom programs, but to record only a particular window, there is in-built support. 
-
-
+If you are only recording the screen \(without combining webcam video source in Picture-in-Picture or split screen format\), there are some inbuilt solutions. Although on Windows to record the entire desktop you'll need custom programs, but to record only a particular window, there is in-built support.
 
 ### 2.1.1 Windows: Recoring with Game Bar
 
 1. Open your IDE or text editor or whatever program you want to record.
-2. Press &lt;kbd&gt;Win&lt;/kbd&gt; 
+2. Press
 
 
 
