@@ -7,7 +7,10 @@ If you are only recording the screen \(without combining webcam video source in 
 ### 2.1.1 Windows: Recoring with Game Bar
 
 1. Open your IDE or text editor or whatever program you want to record.
-2. Press <kbd>Win</kbd> +
+2. Press Win + G 
+3. Accept the "Yes this is a game" checkbox.
+4. Click the red button to start recording (or Win + Alt + R
+
 
 
 
