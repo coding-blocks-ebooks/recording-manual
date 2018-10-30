@@ -1,6 +1,5 @@
-# CONTENTS
+# Summary
 
-1. [Introduction](/README.md)
-
-
+* [Introduction](/README.md)
+* 1. Recording Software
 
