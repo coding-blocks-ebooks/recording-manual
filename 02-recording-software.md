@@ -32,9 +32,11 @@ OBS can record from
 
 OBS can record to a file or it can directly livestream to Youtube / Twitch / Facebook Live.
 
+[Download OBS](https://obsproject.com/)
+
 A few recommendations and suggestions about OBS -
 
-* **Create screens to quickly switch between setups like 'screen only' or 'screen + webcam' or 'webcam only'**   
+* **Create screens to quickly switch between setups like 'screen only' or 'screen + webcam' or 'webcam only'**  
   ![](/assets/obs1.png)
 
 * **Make sure the output resolution is minimum 720p. \(Lower than that is not good quality for online course videos\)**  
@@ -42,12 +44,12 @@ A few recommendations and suggestions about OBS -
 
 * **FPS can be 10 for screen or PiP. It should be above 15 for face-shots or else it feels jerky. Low FPS can help reduce size of video. **
 
-* **Make sure you have appropriate bitrates set**
+* **Make sure you have appropriate bitrates set**  
   ![](/assets/obs-bitrates.png)
 
   * Video Bitrate
 
-    * For 720p, 1800 to 2000 
+    * For 720p, 1800 to 2000
 
     * For 1080p 2400 to 2600
 
