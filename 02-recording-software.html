@@ -172,6 +172,59 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="2-recording-software">2. Recording Software</h1>
+<h2 id="21-only-screen-recording">2.1 Only Screen Recording</h2>
+<p>If you are only recording the screen (without combining webcam video source in Picture-in-Picture or split screen format), there are some inbuilt solutions. Although on Windows to record the entire desktop you&apos;ll need custom programs, but to record only a particular window, there is in-built support.</p>
+<h3 id="211-windows-recoring-with-game-bar">2.1.1 Windows: Recoring with Game Bar</h3>
+<ol>
+<li>Open your IDE or text editor or whatever program you want to record.</li>
+<li>Press <code>Win</code> + <code>G</code> </li>
+<li>Accept the &quot;Yes this is a game&quot; checkbox.</li>
+<li>Click the red button to start recording (or <code>Win</code> + <code>Alt</code> + <code>R</code> ) </li>
+<li>Click the red bar again to stop recording.</li>
+</ol>
+<h3 id="212-mac-quicktime-screen-recording">2.1.2 Mac: QuickTime Screen Recording</h3>
+<ol>
+<li>Open Quick Time</li>
+<li>Go to File &gt; New Screen Recording</li>
+<li>You can record part of the screen or the entire screen</li>
+</ol>
+<h2 id="22-multi-source-recording">2.2 Multi-source Recording</h2>
+<p>If you want to record not just screen but multiple sources like screen, webcam, and/or externally connected mobile or tablet screen, then it is best to use a dedicated video capturing software. <strong>OBS </strong>is what we recommend most.</p>
+<h3 id="221-obs-open-broadcaster-software">2.2.1 OBS (Open Broadcaster Software)</h3>
+<p>OBS can record from</p>
+<ol>
+<li>Screen</li>
+<li>Connected camera like Webcam</li>
+<li>A file or URL stream</li>
+</ol>
+<p>OBS can record to a file or it can directly livestream to Youtube / Twitch / Facebook Live.</p>
+<p>A few recommendations and suggestions about OBS -</p>
+<ul>
+<li><p><strong>Create screens to quickly switch between setups like &apos;screen only&apos; or &apos;screen + webcam&apos; or &apos;webcam only&apos;</strong><br><img src="assets/obs1.png" alt=""></p>
+</li>
+<li><p><strong>Make sure the output resolution is minimum 720p. (Lower than that is not good quality for online course videos)</strong><br><img src="assets/obs2.png" alt=""></p>
+</li>
+<li><p><strong>FPS can be 10 for screen or PiP. It should be above 15 for face-shots or else it feels jerky. Low FPS can help reduce size of video. </strong></p>
+</li>
+<li><p><strong>Make sure you have appropriate bitrates set</strong>
+<img src="assets/obs-bitrates.png" alt=""></p>
+<ul>
+<li><p>Video Bitrate</p>
+<ul>
+<li><p>For 720p, 1800 to 2000 </p>
+</li>
+<li><p>For 1080p 2400 to 2600</p>
+</li>
+</ul>
+</li>
+<li><p>Audio Bitrate</p>
+<ul>
+<li>64 is fine, if there is distortion use 128</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 
                                 
                                 </section>
@@ -211,7 +264,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"2. Recording Software","level":"1.3","depth":1,"previous":{"title":"1. Recording Hardware","level":"1.2","depth":1,"path":"01-recording-hardware.md","ref":"01-recording-hardware.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"02-recording-software.md","mtime":"2018-10-30T13:05:51.410Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-30T13:06:46.075Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"2. Recording Software","level":"1.3","depth":1,"previous":{"title":"1. Recording Hardware","level":"1.2","depth":1,"path":"01-recording-hardware.md","ref":"01-recording-hardware.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"02-recording-software.md","mtime":"2018-10-30T13:38:54.127Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-30T13:39:56.481Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
